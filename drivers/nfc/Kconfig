@@ -1,0 +1,22 @@
+# SPDX-License-Identifier: GPL-2.0-only
+#
+# Near Field Communication (NFC) devices
+#
+
+menu "Near Field Communication (NFC) devices"
+	depends on NFC
+
+source "drivers/nfc/nfc/Kconfig"
+source "drivers/nfc/ese/Kconfig"
+
+endmenu
+
+config NFC_QTI_I2C
+	tristate "QTI NCI based NFC I2C Slave Driver for SNxxx"
+	depends on I2C
+	help
+	  This enables the NFC driver for SNxxx based devices.
+	  This is for I2C connected version. NCI protocol logic
+	  resides in the usermode and it has no other NFC dependencies.
+
+	  If unsure, say N.
