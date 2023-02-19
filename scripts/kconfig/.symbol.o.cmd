@@ -1,4 +1,4 @@
-cmd_scripts/kconfig/symbol.o := /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang -Wp,-MD,scripts/kconfig/.symbol.o.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu89       -c -o scripts/kconfig/symbol.o scripts/kconfig/symbol.c
+cmd_scripts/kconfig/symbol.o := /home/cm/Image/All_Project_Workspace/sm8350_apps/LINUX/android/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang -Wp,-MD,scripts/kconfig/.symbol.o.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu89       -c -o scripts/kconfig/symbol.o scripts/kconfig/symbol.c
 
 source_scripts/kconfig/symbol.o := scripts/kconfig/symbol.c
 
@@ -18,7 +18,7 @@ deps_scripts/kconfig/symbol.o := \
   /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
   /usr/include/xlocale.h \
   /usr/include/stdlib.h \
-  /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stddef.h \
+  /home/cm/Image/All_Project_Workspace/sm8350_apps/LINUX/android/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stddef.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -36,6 +36,7 @@ deps_scripts/kconfig/symbol.o := \
   /usr/include/x86_64-linux-gnu/bits/string.h \
   /usr/include/x86_64-linux-gnu/bits/string2.h \
   /usr/include/regex.h \
+  /usr/include/x86_64-linux-gnu/gnu/option-groups.h \
   /usr/include/x86_64-linux-gnu/sys/utsname.h \
   /usr/include/x86_64-linux-gnu/bits/utsname.h \
   scripts/kconfig/lkc.h \
@@ -46,12 +47,12 @@ deps_scripts/kconfig/symbol.o := \
   /usr/include/libio.h \
   /usr/include/_G_config.h \
   /usr/include/wchar.h \
-  /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stdarg.h \
+  /home/cm/Image/All_Project_Workspace/sm8350_apps/LINUX/android/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
   /usr/include/x86_64-linux-gnu/bits/stdio.h \
   scripts/kconfig/list.h \
-  /media/builder9/data/8350/ZS672KS_R_DEV/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stdbool.h \
+  /home/cm/Image/All_Project_Workspace/sm8350_apps/LINUX/android/prebuilts/clang/host/linux-x86/clang-r383902b/lib64/clang/11.0.2/include/stdbool.h \
   scripts/kconfig/lkc_proto.h \
 
 scripts/kconfig/symbol.o: $(deps_scripts/kconfig/symbol.o)
